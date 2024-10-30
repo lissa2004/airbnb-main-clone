@@ -1,0 +1,87 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Eddie",
+      "email": "eddie@2gmail.com",
+      "phone": "072 964 5522"
+    },
+    {
+      "id": "2",
+      "name": "Lemogang",
+      "email": "lemo@5gmail.com",
+      "phone": "078 214 5582"
+    },
+    {
+      "id": "3",
+      "name": "Thabo",
+      "email": "thabo@12gmail.com",
+      "phone": "018 714 5588"
+    },
+    {
+      "email": "liss@2gmail.com",
+      "password": "$2a$10$HtwpK0.XYIDCx9QgX.yCH.m8H6IlMgSL0Sv2aXf2ouyptrNqWNBpy",
+      "id": "pVwNGDo"
+    },
+    {
+      "email": "misha@12gmail.com",
+      "password": "$2a$10$5.i8fk1gDE0otyY2NIgGpu8/q/SucWFKGALt6TKpIEMRzgUI5IB72",
+      "id": "uUP53Yu"
+    }
+  ],
+  "bookings": [
+    {
+      "ListingId": "3",
+      "startDame": "2023-12-29",
+      "endDate": "2023-01-05"
+    },
+    {
+      "ListingId": "1",
+      "startDame": "2023-03-24",
+      "endDate": "2023-03-28"
+    },
+    {
+      "ListingId": "2",
+      "startDame": "2023-06-24",
+      "endDate": "2023-06-31"
+    }
+  ],
+  "listings": [
+    {
+      "id": "1",
+      "bed-num": "7",
+      "bath-num": "4",
+      "address": "again street",
+      "city": "lovern",
+      "street": "kid",
+      "price": "2000",
+      "sq-ft": "4.2",
+      "email": "liss@2gmail.com",
+      "userId": 3
+    },
+    {
+      "id": "2",
+      "bed-num": "2",
+      "bath-num": "1",
+      "address": "north street",
+      "city": "misdusa",
+      "street": "kid",
+      "price": "2000",
+      "sq-ft": "4.2",
+      "email": "livinglife@9gmail.com",
+      "userId": 2
+    },
+    {
+      "id": "3",
+      "bed-num": "5",
+      "bath-num": "4",
+      "address": "kid street",
+      "city": "kingdom",
+      "street": "kid",
+      "price": "2000",
+      "sq-ft": "4.2",
+      "email": "kid@8gmail.com",
+      "userId": 1
+    }
+  ]
+}

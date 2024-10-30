@@ -1,0 +1,38 @@
+GET  http://localhost:5000/users/
+###
+POST   http://localhost:5000/register
+content-type: application/json
+
+{
+    "email": "misha@12gmail.com",
+    "password": "24681012"
+}
+###
+GET  http://localhost:5000/users/1
+###
+
+POST   http://localhost:5000/login
+content-type: application/json
+
+{
+    "email": "liss@2gmail.com",
+    "password": "numberonePassw0rd"
+}
+###
+
+GET  http://localhost:5000/users/1/bookings
+###
+
+GET  http://localhost:5000/listings
+###
+
+GET  http://localhost:5000/listings?id=2
+###
+
+POST http://localhost:5000/bookings
+content-type: application/json
+
+{
+    "title": "airbnb clone",
+    "author": "kamo"
+}
