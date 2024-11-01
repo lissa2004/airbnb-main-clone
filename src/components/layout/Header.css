@@ -26,43 +26,128 @@
 }
 
 .header_middle p{
+    cursor: pointer;
     margin: 5px 20px;
 }
 
 .header_right {
     display: flex;
     color: white;
+    cursor: pointer;
+    width: 240px;
     justify-content: space-between;
     align-items: center;
+    margin-right:36px;
 }
 .header_right p {
     margin-right: 10px;
 }
 
 .header_rightIcons{
-    display: flex;
-    border: 1px white;
+    display:flex;
+    cursor: pointer;
     align-items: center;
-    margin: 0px 20px 0px 10px;
+    background: white;
+    width: 60px;
+    height: 30px;
+    border-radius: 9999px 9999px 9999px 9999px;
+    
 }
 
-.header_right input{
-    display: flex;
-    color: white;
-    align-items: center;
-}
-.header_right button{
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.header_rightIcons svg{
+    color:black;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    width:50%;
 }
 
 .header_bottom{
     display: flex;
     align-items: center;
     margin-top: 27px;
-    justify-content: center;
-    color: white;
+    width: 790px;
+    margin-left: 220px;
+    height: 55px;
+    background-color: white;
+    color:white;
+    border-radius: 9999px 9999px 9999px 9999px;
 }
 
+.header_bottomContents{
+    border: none;
+    cursor: pointer;
+    display: flex;
+    padding:0px;
+    align-items: center;
+    border-right: none;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 100%;
+    font-size: 15px;
+    margin-left: 50px;
+    background: white;
+}
+
+.header_bottomContentsIcon{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #de3151;
+    height: 40px;
+    width: 45px;
+    margin-left: 54px;
+    border-radius: 50%;
+}
+
+.header_bottomContentsIcon svg{
+    background-color: #de3151 ;
+    border-radius: 50%;
+    width: 19px;
+}
+
+.header_bottomSearchLeft{
+    display:flex;
+    width: 165px;
+    align-items: center;
+    background-color: white;
+    border-radius: 9999px 9999px 9999px 9999px;
+}
+
+.header_bottomSearchMiddle1{
+    background-color: white;
+    width: 150px;
+    border-left: 1px solid black;
+}
+
+.header_bottomSearchMiddle2{
+    background-color: white;
+    width: 150px;
+    border-left: 1px solid black; 
+}
+
+.header_bottomSearchInfo{
+    color:black;
+    font-size: 12px;
+    background-color: white;
+}
+
+.header_bottomSearchSubInfo{
+    color:gray;
+    font-size: 13px;
+    background-color: white;
+}
+
+
+.header_bottomSearchRight{
+    color: black;
+    background-color: white;
+    border-left: 1px solid black;
+    width:85px;
+}
+
+.header_bottomSearchLeft svg{
+    margin-left: 16px;
+    background-color: white;
+    color: gray;
+}
